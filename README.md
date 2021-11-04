@@ -1,4 +1,4 @@
-Fun in-progress bot that reports when someone says something the CCP may not like, or says something the CCP might like. Phrases can be easily edited.
+Fun in-progress python Discord bot that reports when someone says something the CCP may not like, or says something the CCP might like. Phrases can be easily edited.
 
 **IMPORTANT:**
 Remember to set the Permissions role correctly.
