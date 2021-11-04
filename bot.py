@@ -110,4 +110,4 @@ async def on_message(message):
 
     await client.process_commands(message)
         
-client.run('OTAzNDAzMTcwOTM0NDI3NjQ5.YXsdxA.gO5uy-SxdiKsqOjVH4HJ8BwwPGA')
+client.run('BOT TOKEN HERE')
