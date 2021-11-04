@@ -6,14 +6,10 @@ from discord import DMChannel
 
 client = commands.Bot(command_prefix="%")
 
-
 @client.event
 async def on_ready():
     print("Logged in as " + client.user.name)
 
-@client.event
-async def on_missing_role(ctx, error):
-    await ctx.send(f"This command is does not exist or is incorrectly typed. \nType `$help` if you need help. ")
 
 #Sends an error message when a nonexistant command is run
 @client.event
@@ -36,7 +32,6 @@ async def setchannelID(ctx, cID):
     else:
         embed=discord.Embed(title="Error", description="You need the **Admin** role to run this command.", color=discord.Color.red())
         await ctx.send(embed=embed)
-        #await ctx.channel.send("You need the `Admin` role to run this command")
 
 
 #These are all the phrases that can trigger a response, copy and paste within the function and change the wording to add more
@@ -115,4 +110,4 @@ async def on_message(message):
 
     await client.process_commands(message)
         
-client.run('BOT TOKEN GOES HERE')
+client.run('OTAzNDAzMTcwOTM0NDI3NjQ5.YXsdxA.gO5uy-SxdiKsqOjVH4HJ8BwwPGA')
