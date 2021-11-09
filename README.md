@@ -2,5 +2,5 @@ Fun in-progress python Discord bot that reports when someone says something the 
 
 **IMPORTANT:**
 Remember to set the Permissions role correctly.
-Before starting the bot, make sure to go to line 31 in bot.py and change the numbers to the role ID of youra admin/owner role.
+~~Before starting the bot, make sure to go to line 31 in bot.py and change the numbers to the role ID of youra admin/owner role.~~ This is no longer needed.
 Also, do not forget to put your bot token in the last line of the code, put it inside the single quotes and remove the text already there.
