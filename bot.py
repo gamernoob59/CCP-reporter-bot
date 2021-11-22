@@ -19,8 +19,8 @@ async def on_command_error(ctx, error):
     await ctx.send(embed=embed)
 
 @client.command(
-    help="Set the channel ID that the social credit notices are reported to.",
-    brief="Set the reporting channel for sc"
+    help="Set the channel ID that notices are reported to.",
+    brief="Set the reporting channel for reports"
 )
 @commands.has_permissions(administrator=True)
 #This command lets anyone with the specified role to change the reporting channel ID
